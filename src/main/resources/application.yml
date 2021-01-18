@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: manga-bot
+  messages:
+    fallback-to-system-locale: false
+  security:
+    user:
+      name: admin
+      password: pass
+#  datasource:
+#    url: jdbc:postgresql://192.168.1.72:5432/tbot
+#    username: postgres
+#    password: docker
+#  jpa:
+#    properties:
+#      hibernate:
+#        dialect: org.hibernate.dialect.PostgreSQLDialect
+#    hibernate:
+#      ddl-auto: update
+
+bot:
+  admin: -1
+  token: lel
