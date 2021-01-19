@@ -7,7 +7,7 @@ import org.springframework.scheduling.annotation.EnableScheduling
 
 @SpringBootApplication(exclude = [ErrorMvcAutoConfiguration::class])
 @EnableScheduling
-open class TgBotApplication
+class TgBotApplication
 
 fun main(args: Array<String>) {
     runApplication<TgBotApplication>(*args)
