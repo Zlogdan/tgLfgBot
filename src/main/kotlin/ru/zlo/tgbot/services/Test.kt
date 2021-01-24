@@ -6,10 +6,10 @@ import org.springframework.boot.context.event.ApplicationReadyEvent
 import org.springframework.context.event.EventListener
 import org.springframework.stereotype.Service
 
-@Service
+//@Service
 class Test {
 
-    @EventListener(ApplicationReadyEvent::class)
+//    @EventListener(ApplicationReadyEvent::class)
     fun doSomethingAfterStartup() {
 //        val response : Response = khttp.get(url="https://mangalib.me/manga-rss/i-alone-level-up",
 //            headers = mapOf("header1" to "1", "header2" to "2"),

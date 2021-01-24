@@ -7,16 +7,19 @@ spring:
     user:
       name: admin
       password: pass
-#  datasource:
-#    url: jdbc:postgresql://192.168.1.72:5432/tbot
-#    username: postgres
-#    password: docker
-#  jpa:
-#    properties:
-#      hibernate:
-#        dialect: org.hibernate.dialect.PostgreSQLDialect
-#    hibernate:
-#      ddl-auto: update
+  datasource:
+    url: jdbc:postgresql://192.168.1.72:5432/tgBot
+    username: postgres
+    password: docker
+  jpa:
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+
 
 bot:
   admin: -1
